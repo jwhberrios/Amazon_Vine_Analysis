@@ -34,7 +34,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 ![Non-Vine 5 star](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/5_star_reviews_non_vine.png)
 
-*A total of 15,663 reviews were written by Non-Vine members with 5 star ratings*
+*A total of 15,663 reviews were written by non-Vine members with 5 star ratings*
 
 --------------
 **III. The percentage Vine and Non-Vine 5-star reviews are presented below**
@@ -50,7 +50,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 ![Percentage Non-Vine 5 star](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Perc_Non_Vine_5star_reviews.png)
 
-*39% of 5 star reviews were written by Non-Vine members*
+*39% of 5 star reviews were written by non-Vine members*
 
 -----------------
 

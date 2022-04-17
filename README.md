@@ -10,15 +10,19 @@ Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
 The purpose of this analysis is to assess Amazon product reviews written by members of the paid Amazon Vine program, specifically, video game products. Any bias towards favorable reviews from Vine members were assessed as well.
 
 First, reviews were extracted into a table in order to categorgize them into vine and non-vine member reviews in a later step:
+
 ![Vine_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Vine_df.png)
 
 Next, in order to filter out reviews that are likely to be helpful, customer id's that provided more than 20 reviews were gatherered into a dataframe:
+
 ![total_votes](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/total_votes_helpful_df.png)
 
 Then, a percentage of helpful votes that are greater than 50% of the total votes are retrieved:
+
 ![helpful_votes](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/helpful_votes.png)
 
-Lastly, reviews written by vine members and non_vine members were gathered into their respective dataframes:
+Finally, reviews written by vine members and non_vine members were gathered into their respective dataframes:
+
 * Vine reviews
 ![Vine_paid_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Vine_paid_df.png)
 

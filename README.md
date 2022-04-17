@@ -12,7 +12,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *There are 94 vine reviews*
 
----------------------------------
+--------------
 
 * Non-Vine reviews
 
@@ -20,7 +20,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *There are 40,471 non-vine reviews*
 
-********************************************************
+--------------
 **II. The total number of Vine and Non-Vine 5-star reviews are presented below**
 * Vine reviews
 
@@ -28,7 +28,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *A total of 48 reviews were written by Vine members with 5 star ratings*
 
--------------------------------------
+--------------
 
 * Non-Vine reviews
 
@@ -36,7 +36,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *A total of 15,663 reviews were written by Non-Vine members with 5 star ratings*
 
-********************************************************
+--------------
 **III. The percentage Vine and Non-Vine 5-star reviews are presented below**
 * Vine reviews
 
@@ -44,7 +44,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *51% of 5 star reviews were written by Vine members*
 
---------------------------------------------------------------
+---------------
 
 * Non-Vine reviews
 
@@ -52,7 +52,7 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 *39% of 5 star reviews were written by Non-Vine members*
 
-*********************************************************
+-----------------
 
 ### Summary
 In summary, 51% of five star reviews were written by Vine members, compared to 38% written by non-Vine members. This difference indicates a postive bias towards positive reviews for video game products in the Vine program. A follow up analysis is recommended to look into the reviews of other products, specifically, technology products such as electronic equipments, within the 50 datasets to determine whether such positive bias exists in other product reviews in order to get a larger perception on whether such positive bias reviews exists within the Vine program as a whole.

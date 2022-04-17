@@ -3,7 +3,7 @@ Big Data Analysis using PySpark and the ETL process to anaylze large data sets o
 
 ### Resources 
 Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
-* Data Sources: [Amazon product review database](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+* Data Sources: [Amazon Product Review Databases](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 * Specific product reviews: [Video Games](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
 
 ### Overview

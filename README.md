@@ -15,14 +15,14 @@ The purpose of this analysis is to assess Amazon product reviews written by memb
 
 ![Non-Vine reviews](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Non_vine_reviews.png)
 ********************************************************
-**II. 5-star reviews**
+**II. The total number of Vine and Non-Vine 5-star reviews are presented below**
 * Vine reviews
 ![Vine 5 star](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/5_star_reviews_vine.png)
 
 * Non-Vine reviews
 ![Non-Vine 5 star](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/5_star_reviews_non_vine.png)
 ********************************************************
-**III. Percentage 5-star reviews**
+**III. The percentage Vine and Non-Vine 5-star reviews are presented below**
 * Vine reviews
 ![Percentage Vine 5 star](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/5ded5354019f11afc0c31532c7255eb6ea33f440/Images/Perc_Vine_5star_reviews.png)
 

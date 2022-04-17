@@ -1,27 +1,27 @@
 # Amazon_Vine_Analysis
 Big Data Analysis using PySpark and the ETL process to anaylze large data sets of amazon purchase reviews. AWS database and PostgreSQL tables using PgAdmin were used to analyse the video game product dataset. 
 
-### Resources 
+## Resources 
 Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
 * Data Sources: [Amazon Product Review Databases](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 * Specific product reviews: [Video Games](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
 
-### Overview
+## Overview
 The purpose of this analysis is to assess Amazon product reviews written by members of the paid Amazon Vine program, specifically, video game products. Any bias towards favorable reviews from Vine members were assessed as well.
 
-First, reviews were extracted into a table in order to categorgize them into vine and non-vine member reviews in a later step:
+**First, reviews were extracted into a table in order to categorgize them into vine and non-vine member reviews in a later step:**
 
 ![Vine_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Vine_df.png)
 
-Next, in order to filter out reviews that are likely to be helpful, customer id's that provided more than 20 reviews were gatherered into a dataframe:
+**Next, in order to filter out reviews that are likely to be helpful, customer id's that provided more than 20 reviews were gatherered into a dataframe:**
 
 ![total_votes](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/total_votes_helpful_df.png)
 
-Then, a percentage of helpful votes that are greater than 50% of the total votes are retrieved:
+**Then, a percentage of helpful votes that are greater than 50% of the total votes are retrieved:**
 
 ![helpful_votes](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/helpful_votes.png)
 
-Finally, reviews written by vine members and non_vine members were gathered into their respective dataframes:
+**Finally, reviews written by vine members and non_vine members were gathered into their respective dataframes:**
 
 * Vine reviews
 ![Vine_paid_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Vine_paid_df.png)
@@ -31,7 +31,7 @@ Finally, reviews written by vine members and non_vine members were gathered into
 * Non-vine reviews
 ![Non_Vine_unpaid_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Non_vine_reviews_df.png)
 
-### Results
+## Results
 
 
 **I. The total number of Vine reviews and non-Vine reviews are presented below:**
@@ -83,5 +83,5 @@ Finally, reviews written by vine members and non_vine members were gathered into
 
 -----------------
 
-### Summary
+## Summary
 In summary, 51% of five star reviews were written by Vine members, compared to 38% written by non-Vine members. This difference indicates a postive bias towards positive reviews for video game products in the Vine program. A follow up analysis is recommended to look into the reviews of other products, specifically, technology products such as electronic equipments, within the 50 other datasets to determine whether such positive bias exists in other product reviews in order to get a larger assessment on whether such positive bias reviews exists within the Vine program as a whole.

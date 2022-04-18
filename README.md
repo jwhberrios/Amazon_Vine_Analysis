@@ -3,8 +3,8 @@ Big Data Analysis using PySpark and the ETL process to anaylze large data sets o
 
 ## Resources 
 Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
-* Data Sources: [Amazon Product Review Databases](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
-* Specific product reviews: [Video Games](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
+* Data Sources: [Amazon Product Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+* Specific product dataset used in this analysis: [Video Games](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
 
 ## Overview
 The purpose of this analysis is to assess Amazon product reviews written by members of the paid Amazon Vine program, specifically, video game products. Any bias towards favorable reviews from Vine members were assessed as well.

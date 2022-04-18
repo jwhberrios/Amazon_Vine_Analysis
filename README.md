@@ -9,7 +9,7 @@ Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
 ## Overview
 The purpose of this analysis is to assess Amazon product reviews written by members of the paid Amazon Vine program, specifically, video game products. Any bias towards favorable reviews from Vine members were assessed as well.
 
-**First, reviews were extracted into a table in order to categorgize them into vine and non-vine member reviews in the last step:**
+**First, reviews were extracted into a table in order to categorgize them into vine and non-vine member reviews in the final step:**
 
 ![Vine_df](https://github.com/jwhberrios/Amazon_Vine_Analysis/blob/main/Images/Vine_df.png)
 

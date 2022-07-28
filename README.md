@@ -1,5 +1,5 @@
 # Amazon_Vine_Analysis
-Big Data Analysis using PySpark and the ETL process to anaylze large data sets of amazon purchase reviews. AWS database and PostgreSQL tables using PgAdmin were used to analyse the video game product dataset. 
+Big Data Analysis using PySpark and the ETL process to anaylze large data sets of amazon purchase reviews. AWS database and PostgreSQL tables using PgAdmin were used to analyze the video game product dataset. 
 
 ## Resources 
 Amazon Web Services (RDS), PgAdmin4, PySpark, Google Colab Notebook.
